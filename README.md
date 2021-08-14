@@ -10,7 +10,7 @@
 
 <br>
 
-Este projeto foi desenvolvido para candidatura à vaga de desenvolvedor Front-End da ADV Tecnologia. A aplicação deveria ser feita com a utilização de frameworks Front-End, preferencialmente Angular 2 ou superior. Mas a escolha para a realização desse projeto foi a biblioteca ReactJS. Não foi requisitado backend, apenas a consumação de dados de uma API no Front-End. Realizado em 3 dias, você pode checar o resultado em minha prévia online, deploy feito pelo Vercel [link here]
+Este projeto foi desenvolvido para candidatura à vaga de desenvolvedor Front-End da ADV Tecnologia. A aplicação deveria ser feita com a utilização de frameworks Front-End, preferencialmente Angular 2 ou superior. Mas a escolha para a realização desse projeto foi a biblioteca ReactJS. Não foi requisitado backend, apenas a consumação de dados de uma API no Front-End. Realizado em 3 dias, você pode checar o resultado em minha prévia online, deploy feito pelo Vercel https://rick-and-morty-universe-react.vercel.app/
 
 ## :boom: Tecnologias utilizadas
 
