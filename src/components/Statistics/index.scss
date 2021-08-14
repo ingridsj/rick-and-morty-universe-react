@@ -1,0 +1,41 @@
+.Charts {
+  margin: 50px auto;
+
+  max-width: 880px;
+
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+
+  h1 {
+    text-align: center;
+    color: #ffffff;
+
+    margin-bottom: 10px;
+  }
+
+  .episodes-per-season {
+    background: var(--background-chart);
+    border-radius: 8px;
+
+    margin-bottom: 50px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .characters-per-planet {
+    margin-left: 10px;
+    border-radius: 8px;
+    background: var(--background-chart);
+
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

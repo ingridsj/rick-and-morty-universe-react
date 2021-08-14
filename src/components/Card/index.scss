@@ -1,0 +1,50 @@
+.Card {
+  background-color: var(--base);
+  margin: 15px 15px;
+  width: 550px;
+  height: 240px;
+  display: flex;
+
+  border-radius: 8px;
+
+  font-family: "Poppins", sans-serif;
+
+  img {
+    width: 200px;
+    height: 240px;
+    object-fit: cover;
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  .img-gray {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: var(--gray);
+  }
+
+  .second-column {
+    margin: auto auto auto 16px;
+  }
+
+  h3 {
+    color: var(--text-title);
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  span {
+    font-weight: 700;
+    color: var(--span);
+
+    strong {
+      font-weight: 400;
+      color: var(--black);
+      font-size: 14px;
+    }
+  }
+}

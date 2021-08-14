@@ -1,0 +1,44 @@
+.Buttons {
+  text-align: center;
+
+  button {
+    width: 180px;
+    height: 60px;
+    margin: 20px;
+
+    line-height: 60px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: var(--text-button);
+
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+
+    background: none;
+
+    transition: all 0.3s;
+
+    &:hover {
+      transform: translateX(5px) translateY(-7px);
+    }
+  }
+
+  .prev-button {
+    border: 1px solid var(--prev-button);
+
+    &:disabled {
+      opacity: 0.4;
+      pointer-events: none;
+    }
+  }
+
+  .next-button {
+    border: 1px solid var(--next-button);
+
+    &:disabled {
+      opacity: 0.4;
+      pointer-events: none;
+    }
+  }
+}

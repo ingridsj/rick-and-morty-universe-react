@@ -1,0 +1,11 @@
+.Loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}

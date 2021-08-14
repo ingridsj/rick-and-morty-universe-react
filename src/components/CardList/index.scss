@@ -1,0 +1,58 @@
+.CardList {
+  max-width: 1440px;
+  margin: auto;
+  height: 100%;
+
+  .content-list {
+    max-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .InputSearch {
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+
+    input {
+      max-width: 200px;
+      width: 100%;
+      padding: 12px 24px;
+      margin-right: 10px;
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--text-input-search);
+
+      border-radius: 50px;
+      border: 1px solid var(--next-button);
+
+      outline: none;
+    }
+
+    button {
+      max-width: 100px;
+      width: 100%;
+
+      padding: 12px 0px;
+
+      font-size: 14px;
+      line-height: 18px;
+
+      color: var(--text-input-search);
+
+      border-radius: 50px;
+      border: 1px solid var(--next-button);
+
+      outline: none;
+
+      &::placeholder {
+        color: color(var(--text-input-search) a(0.8));
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+      }
+    }
+  }
+}
