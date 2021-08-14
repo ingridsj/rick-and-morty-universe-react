@@ -4,7 +4,9 @@
 
 <div  align="center">
 
-[image here]
+<p align="center">
+  <img alt="countdown" src=".github/rick-and-morty-gif.gif" width="100%">
+</p>
 
 </div>
 
